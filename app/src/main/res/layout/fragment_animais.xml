@@ -22,7 +22,7 @@
         app:layout_constraintGuide_percent="0.9" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButtonCao"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginTop="24dp"
@@ -32,47 +32,47 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/imageButtonOvelha"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginTop="16dp"
         android:background="@android:color/transparent"
         android:src="@drawable/ovelha"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonLeao" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/imageButtonVaca"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginTop="16dp"
         android:background="@android:color/transparent"
         android:src="@drawable/vaca"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton4" />
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonMacaco" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/imageButtonLeao"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginTop="16dp"
         android:background="@android:color/transparent"
         android:src="@drawable/leao"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonCao" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/imageButtonMacaco"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginTop="16dp"
         android:background="@android:color/transparent"
         android:src="@drawable/macaco"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonGato" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imageButtonGato"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginTop="24dp"

@@ -7,33 +7,8 @@
     android:background="@drawable/segundo_fundo"
     tools:context=".fragmentos.NumerosFragment">
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.1" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.9" />
-
     <ImageButton
-        android:id="@+id/imageButton7"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
-        android:layout_marginTop="16dp"
-        android:background="@android:color/transparent"
-        android:scaleType="centerCrop"
-        android:src="@drawable/seis"
-        app:layout_constraintEnd_toStartOf="@+id/guideline5"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton8" />
-
-    <ImageButton
-        android:id="@+id/imageButton12"
+        android:id="@+id/imageButton1"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginTop="24dp"
@@ -44,7 +19,36 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton8"
+        android:id="@+id/imageButton3"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tres"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/seis"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton4" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginTop="16dp"
@@ -52,10 +56,10 @@
         android:scaleType="centerCrop"
         android:src="@drawable/quatro"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton9" />
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
 
     <ImageButton
-        android:id="@+id/imageButton9"
+        android:id="@+id/imageButton2"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginTop="24dp"
@@ -66,18 +70,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton10"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
-        android:layout_marginTop="16dp"
-        android:background="@android:color/transparent"
-        android:scaleType="centerCrop"
-        android:src="@drawable/tres"
-        app:layout_constraintStart_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton12" />
-
-    <ImageButton
-        android:id="@+id/imageButton11"
+        android:id="@+id/imageButton5"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginTop="16dp"
@@ -85,5 +78,13 @@
         android:scaleType="centerCrop"
         android:src="@drawable/cinco"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton10" />
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
